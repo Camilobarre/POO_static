@@ -9,7 +9,7 @@ public class EjemploEstatico
     public static string Nombre {get; set;}
     public static string Apellido {get; set;}
 
-    public EjemploEstatico()
+    static EjemploEstatico()
     {
         Nombre = "Camilo";
         Apellido = "Barreneche Escobar";
