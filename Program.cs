@@ -9,9 +9,12 @@ ejemplo1.Saludar();
 
 //Uso de propiedades y métodos pero con el STATIC
 //Sirve para acceder a las propiedades sin necesidad de instanciarlas
-EjemploEstatico.Nombre ="Camilo";
-EjemploEstatico.Apellido = "Barreneche Escobar";
+// EjemploEstatico.Nombre ="Camilo";
+// EjemploEstatico.Apellido = "Barreneche Escobar";
+// EjemploEstatico.Saludar();
+// Console.WriteLine("Nombre=> "+ EjemploEstatico.Nombre);
+// Console.WriteLine("Apellido => "+ EjemploEstatico.Apellido);
+// EjemploEstatico.Saludar();
+
+//Uso de un Constructor static
 EjemploEstatico.Saludar();
-Console.WriteLine("Nombre=> "+ ejemplo1.Nombre);
-Console.WriteLine("Apellido => "+ ejemplo1.Apellido);
-ejemplo1.Saludar();
